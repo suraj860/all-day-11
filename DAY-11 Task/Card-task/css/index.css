@@ -1,0 +1,104 @@
+.parent{
+    width: 600px;
+    height:385px;
+    background-color:white;
+    position: relative;
+    left: 30%;
+    border: 5px solid black;
+    
+}
+
+.head{
+    color: #eee;
+    background-color: red;
+    height: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.top{
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-left: auto;
+}
+
+span{
+    font-style: italic;
+}
+
+.aa , .address , .last{
+    border: none;
+    border-bottom: 3px solid #000;
+    font-style: italic;
+}
+.aa {
+    text-align: center;
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px; 
+   
+  }
+
+  .line{
+    text-align: center;
+      display: inline-block;
+      margin: 2px 208px 0 15px;
+     
+  }
+
+  .address{
+    width: 90%;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .enteradd{
+      margin-left: 10px;
+      margin-top: 2px;
+  }
+
+.last{   
+    text-align: center;
+    margin: 10px 20px 0 10px;  
+}
+  
+.details{
+    margin: 2px 160px 0 10px;
+}
+
+.subscribe{
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label{
+    margin-right: 20px;
+    
+}
+
+.info{
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+
+.lastdiv{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.footer{
+    margin-bottom: 8px;
+    margin-left: 12px;
+}

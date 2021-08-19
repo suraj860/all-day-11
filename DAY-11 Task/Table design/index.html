@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    table,th,td{
+        border: 1px solid rgb(48, 47, 47);
+    }
+
+
+    table{
+        border-collapse: collapse;
+    }
+
+    td{
+        text-align: center;
+        padding: 10px;      
+    }
+
+    th{
+        padding: 10px;
+    }
+
+    div{
+        text-align: center;
+        display: grid;
+        padding: 50px 200px;
+    }
+</style>
+<body>
+    <div>
+    <table>
+        <h2>Health Chart</h2>
+        <tr>
+           <th rowspan="2">State of Health</th>
+           <th colspan="2">Fasting Value</th>
+           <th>After Eating</th>
+        </tr>
+        <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <th>2hours after eating</th>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 1740</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    </div> 
+</body>
+</html>
